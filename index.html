@@ -210,6 +210,8 @@
         }
 
         /* Contact Section */
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
         .contact-section {
             padding: 50px 20px;
             margin-top: 70px; /* To account for the fixed header */
@@ -236,15 +238,20 @@
             justify-content: center;
             margin-top: 30px;
         }
-
         .social-media-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             text-decoration: none;
-            font-size: 1.5em;
+            font-size: 18px;
             color: #333;
-        }
-
+            margin-right: 15px;}
+        
         .social-media-links a:hover {
-            opacity: 0.7;
+            color: #0077b5; /* LinkedIn blue */
+        }
+        .social-media-links i {
+            font-size: 24px;
         }
 
         .contact-form {
@@ -429,12 +436,19 @@
             </div>
 
             <!-- Social Media Links -->
-            <div class="social-media-links">
-                <a href="https://www.instagram.com/erfan1bagheri?igsh=aDF6bWFvcWd3Z3Z4" target="_blank">Instagram</a>
-                <a href="https://www.youtube.com/channel/UCNDXZsZCxY1tdRE68fwDfJw" target="_blank">YouTube</a>
-                <a href="https://www.facebook.com/erfan_bagheri" target="_blank">Facebook</a>
-                <!-- Add more social media links as necessary -->
-            </div>
+            <!-- Social Media Links -->
+           <div class="social-media-links">
+               <a href="https://www.instagram.com/erfan1bagheri?igsh=aDF6bWFvcWd3Z3Z4" target="_blank">
+                   <i class="fab fa-instagram"></i> Instagram
+               </a>
+               <a href="https://www.youtube.com/channel/UCNDXZsZCxY1tdRE68fwDfJw" target="_blank">
+                   <i class="fab fa-youtube"></i> YouTube
+               </a>
+               <a href="https://www.linkedin.com/in/omid-bagheri-59588834a/" target="_blank">
+                   <i class="fab fa-linkedin"></i> LinkedIn
+               </a>
+               <!-- Add more social media links as necessary -->
+           </div>
 
             <!-- Collaboration Form -->
             <div class="contact-form">
